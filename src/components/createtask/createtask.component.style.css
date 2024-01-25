@@ -1,0 +1,8 @@
+.create-container{
+    padding: 2rem;
+    top:4px;
+    position: relative;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+}

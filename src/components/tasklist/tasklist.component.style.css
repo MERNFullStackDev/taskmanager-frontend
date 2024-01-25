@@ -1,0 +1,18 @@
+.task-list .footer {
+    display: block;
+    position: absolute;
+    height: 50px;
+    bottom: 2rem;
+    padding: 0;
+    right: 2rem;
+    background-color: rgb(154, 154, 154);
+    border-radius: 20px;
+  }
+  
+  .task-list .footer .create-task-button {
+    height: 50px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }

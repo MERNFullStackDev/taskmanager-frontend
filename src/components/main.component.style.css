@@ -1,0 +1,52 @@
+.task-manager {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.task-manager .main-container {
+  display: flex;
+  flex-direction: row;
+  height: calc(100% - 50px);
+  width: 100%;
+  margin-top: 50px;
+}
+
+.task-manager .top-navbar {
+  display: block;
+  position: absolute;
+  min-height: 50px;
+  z-index: 9999;
+  width: 100%;
+  top: 0;
+  padding: 0;
+  background-color: rgb(154, 154, 154);
+}
+
+.task-manager .left-panel {
+  width: 180px;
+  flex-shrink: 0;
+  padding: 10px 0;
+  box-sizing: border-box;
+  background-color: "background.paper";
+  border-right: 1px solid lightgray;
+}
+.task-manager .right-panel {
+  box-sizing: border-box;
+  flex-grow: 1;
+  padding: 10px;
+  padding-bottom: 70px;
+  padding-top: 30px;
+  overflow-y: auto;
+  background-color: "background.paper";
+}
+
+.task-manager .right-panel .content {
+  height: 900px;
+  background-color: rgb(153, 153, 231);
+}
+
+.task-manager .validation-error {
+  color: red;
+  font-size: 12px;
+}
